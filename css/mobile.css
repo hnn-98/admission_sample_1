@@ -7,6 +7,15 @@
   font-style: normal;
 }
 
+hr{
+  border: 0;
+  width: 90%;
+  margin: 0 auto;
+  border-top: thick dotted;
+  color: #494949;
+  text-align: center;
+}
+
 .top{
   display: block;
   padding: 0.5em;
@@ -19,18 +28,18 @@
 
 .title img{
   width: 100vw;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .menu h2{
   font-size: 30px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 8px;
   color: #494949;
 }
 
-.menu ul{
+/*.menu ul{
   text-align: center;
   padding: 0;
 }
@@ -39,15 +48,16 @@
   display: inline-block;
   list-style: none;
   margin-bottom: 30px;
-}
+}*/
 
 .menu h4{
   font-size: 12px;
   text-align: center;
   color: #494949;
+  margin-bottom: 30px;
 }
 
-.menu img{
+/*.menu img{
   width: 50px;
 }
 
@@ -59,7 +69,7 @@
 .sp_b{
   margin-top: 70px;
   /*padding-left: 5px;*/
-}
+}*/
 
 .icon{
   margin-bottom: 10px;
@@ -67,10 +77,10 @@
   float: left;
 }
 
-/*
-.sys, .ap, .nyusi, .bosyu, .syutugan{
+
+.sys{
   margin-top: 30px;
-}*/
+}
 
 .ap, .nyusi, .bosyu, .syutugan{
   clear: left;
