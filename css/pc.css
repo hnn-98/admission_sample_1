@@ -1,7 +1,8 @@
 @import url("https://use.typekit.net/aco6sef.css");
 
 *{
-  margin: 0px;
+  max-width: 800px;
+  margin: 0 auto;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -97,6 +98,12 @@ hr{
 }
 
 
+.outer{
+
+}
+
+
+
 .sys{
   margin-top: 30px;
 }
@@ -109,7 +116,6 @@ hr{
 .sys img{
   margin-right: 10px;
   float: left;
-  /*position: relative;*/
 }
 
 .ap img{
@@ -125,22 +131,18 @@ hr{
 }
 
 .sys p, .ap p, .nyusi p, .bosyu p, .syutugan p{
+  text-indent: 0.5em;
   font-size: 12px;
-  text-indent: 1em;
+  text-align: left;
   color: #494949;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-family: heisei-kaku-gothic-std, sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
 }
 
-.p1{
-  margin-bottom: 10px;
-  margin-top: 5px;
-}
-
-.nyusi br{
-    display: none;
-}
 
 .button_1, .button_2, .button_3, .button_4, .button_5, .button_6, .button_7,.button_8, .button_9, .button_10{
   display: inline-block;

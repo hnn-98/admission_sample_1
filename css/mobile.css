@@ -73,11 +73,11 @@ hr{
 
 .menu p{
   font-size: 12px;
-  text-align: center;
+  text-align: left;
   color: #494949;
   margin-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-family: heisei-kaku-gothic-std, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -131,18 +131,18 @@ hr{
 }
 
 .sys p, .ap p, .nyusi p, .bosyu p, .syutugan p{
+  text-indent: 0.5em;
   font-size: 12px;
-  text-indent: 1em;
+  text-align: left;
   color: #494949;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-family: heisei-kaku-gothic-std, sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.p1{
-  margin-bottom: 10px;
-  margin-top: 5px;
-}
 
 .button_1, .button_2, .button_3, .button_4, .button_5, .button_6, .button_7,.button_8, .button_9, .button_10{
   display: inline-block;
