@@ -67,10 +67,10 @@
   float: left;
 }
 
-
+/*
 .sys, .ap, .nyusi, .bosyu, .syutugan{
   margin-top: 30px;
-}
+}*/
 
 .ap, .nyusi, .bosyu, .syutugan{
   clear: left;
