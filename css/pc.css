@@ -1,0 +1,258 @@
+@import url("https://use.typekit.net/aco6sef.css");
+
+*{
+  margin: 0px;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.top{
+  display: block;
+  text-align: left;
+  padding: 0.5em;
+  background: #f39312;
+}
+
+.top img{
+  width: 250px;
+}
+
+.title img{
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+.menu h2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #494949;
+}
+
+.menu ul{
+  padding: 0;
+  text-align: center;
+}
+
+.menu li{
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.menu h4{
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 15px;
+  text-align: center;
+  color: #494949;
+}
+
+.menu img{
+  width: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.icon{
+  margin-bottom: 10px;
+  margin-left: 5px;
+  float: left;
+}
+
+
+.sys, .ap, .nyusi, .bosyu, .syutugan{
+  margin-top: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.ap, .nyusi, .bosyu, .syutugan{
+  clear: left;
+}
+
+.sys img{
+  margin-right: 10px;
+  float: left;
+  /*position: relative;*/
+}
+
+.ap img{
+  margin-right: 10px;
+  float:left;
+  position: relative;
+}
+
+.sys h3, .ap h3, .nyusi h3, .bosyu h3, .syutugan h3{
+  text-indent: 0.5em;
+  color: #494949;
+  margin-bottom: 10px;
+}
+
+.sys p, .ap p, .nyusi p, .bosyu p, .syutugan p{
+  font-size: 12px;
+  text-indent: 1em;
+  color: #494949;
+  font-family: heisei-kaku-gothic-std, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.p1{
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.nyusi br{
+    display: none;
+}
+
+.button_1, .button_2, .button_3, .button_4, .button_5, .button_6, .button_7,.button_8, .button_9, .button_10{
+  display: inline-block;
+  font-weight: middle;
+  padding: 0.25em 0.5em;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #515151;
+  border-radius: 15px;
+  transition: .4s;
+}
+
+.button_1, .button_2, .button_3{
+  background-color: #55a9b7;
+}
+
+.button_4{
+  background-color: #f2a38b;
+}
+
+.nyusi img{
+  margin-right: 10px;
+  float:left;
+  position: relative;
+}
+
+.button_5, .button_6, .button_7, .button_8{
+  background-color: #ffde94;
+}
+
+.bosyu img{
+  margin-right: 10px;
+  float:left;
+  position: relative;
+}
+
+.button_9{
+  background-color: #a9f7f7;
+}
+
+.syutugan img{
+  margin-right: 10px;
+  float:left;
+  position: relative;
+}
+
+.button_10{
+  background-color:#f2adad;
+}
+
+.footer img{
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+.ham a{
+  text-decoration: none;
+}
+
+.ham h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.ham p{
+  color: #fff;
+  font-weight: lighter;
+  text-indent: 1em;
+}
+
+.ham li{
+  display: inline-block;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ham hr{
+  border: 0;
+  width: 90%;
+  margin: 8px auto;
+  border-top: thick dotted;
+  color: #fff;
+  text-align: left;
+}
+
+
+
+
+#ham-menu {
+    background-color: #353535; /*メニュー背景色*/
+    box-sizing: border-box;
+    height: 100%;
+    position: fixed;
+    right: -300px; /*メニュー横幅 width と合わせる*/
+    top: 0;
+    transition: transform 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+    width: 300px; /*メニュー横幅*/
+    z-index: 1000;
+}
+
+#menu-background {
+    background-color: #353535; /*黒背景*/
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+    width: 100%;
+    z-index: -1;
+}
+
+#menu-icon {
+    background-color: #353535; /*アイコン部分背景色*/
+    border-radius: 0 0 0 10px; /*左下角丸*/
+    color: #fff; /*アイコン（フォント）色*/
+    cursor: pointer;
+    display: block;
+    font-size: 50px; /*アイコン（フォント）サイズ*/
+    height: 50px; /*アイコン縦高さ*/
+    line-height: 50px; /*縦位置中央化*/
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 50px; /*アイコン横幅*/
+    transition: all 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+    z-index: 1000;
+}
+
+#menu-cb {
+    display: none; /*チェックボックス本体は消しておく*/
+}
+
+#menu-cb:checked ~ #ham-menu,
+#menu-cb:checked ~ #menu-icon {
+    transform: translate(-300px); /*メニュー本体横幅 width と合わせる*/
+}
+
+#menu-cb:checked ~ #menu-background {
+    opacity: 0.5;
+    z-index: 999;
+}
