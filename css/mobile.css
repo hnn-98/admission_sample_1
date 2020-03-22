@@ -16,6 +16,27 @@ hr{
   text-align: center;
 }
 
+.under_1 {
+  background: linear-gradient(transparent 70%, #55a9b7 70%);
+}
+
+.under_2 {
+  background: linear-gradient(transparent 70%, #f2a38b 70%);
+}
+
+.under_3 {
+  background: linear-gradient(transparent 70%, #ffde94 70%);
+}
+
+.under_4 {
+  background: linear-gradient(transparent 70%, #a9f7f7 70%);
+}
+
+.under_5 {
+  background: linear-gradient(transparent 70%, #f2adad 70%);
+}
+
+
 .top{
   display: block;
   padding: 0.5em;
