@@ -50,11 +50,16 @@ hr{
   margin-bottom: 30px;
 }*/
 
-.menu h4{
+.menu p{
   font-size: 12px;
   text-align: center;
   color: #494949;
   margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: heisei-kaku-gothic-std, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 /*.menu img{
