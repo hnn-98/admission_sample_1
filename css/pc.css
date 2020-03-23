@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/aco6sef.css");
 
 *{
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
@@ -96,12 +96,6 @@
 }
 
 
-.outer{
-
-}
-
-
-
 .sys{
   margin-top: 30px;
 }
@@ -169,6 +163,7 @@
 
 .button_5, .button_6, .button_7, .button_8{
   background-color: #ffde94;
+  margin-bottom: 20px;
 }
 
 .bosyu img{
