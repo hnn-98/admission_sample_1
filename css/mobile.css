@@ -7,14 +7,14 @@
   font-style: normal;
 }
 
-hr{
+/*hr{
   border: 0;
   width: 90%;
   margin: 0 auto;
   border-top: thick dotted;
   color: #494949;
   text-align: center;
-}
+}*/
 
 .under_1 {
   background: linear-gradient(transparent 70%, #55a9b7 70%);
@@ -75,7 +75,7 @@ hr{
   font-size: 12px;
   text-align: center;
   color: #494949;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-family: heisei-kaku-gothic-std, sans-serif;
   font-weight: 300;
   font-style: normal;
