@@ -117,13 +117,11 @@
 }
 
 .sys h3, .ap h3, .nyusi h3, .bosyu h3, .syutugan h3{
-  text-indent: 0.5em;
   color: #494949;
   margin-bottom: 10px;
 }
 
 .sys p, .ap p, .nyusi p, .bosyu p, .syutugan p{
-  text-indent: 0.5em;
   font-size: 12px;
   text-align: left;
   color: #494949;

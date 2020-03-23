@@ -102,7 +102,6 @@
   float: left;
 }
 
-
 .sys{
   margin-top: 30px;
 }
@@ -114,23 +113,21 @@
 .sys img{
   float:left;
   position: relative;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .ap img{
   float:left;
   position: relative;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .sys h3, .ap h3, .nyusi h3, .bosyu h3, .syutugan h3{
-  text-indent: 0.5em;
   color: #494949;
   margin-bottom: 10px;
 }
 
 .sys p, .ap p, .nyusi p, .bosyu p, .syutugan p{
-  text-indent: 0.5em;
   font-size: 12px;
   text-align: left;
   color: #494949;
@@ -165,7 +162,7 @@
 .nyusi img{
   float:left;
   position: relative;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .button_5, .button_6, .button_7, .button_8{
@@ -175,7 +172,7 @@
 .bosyu img{
   float:left;
   position: relative;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .button_9{
@@ -185,7 +182,7 @@
 .syutugan img{
   float:left;
   position: relative;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .button_10{
