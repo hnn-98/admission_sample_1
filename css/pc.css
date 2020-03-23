@@ -134,7 +134,7 @@
 }
 
 
-.button_1, .button_2, .button_3, .button_4, .button_5, .button_6, .button_7,.button_8, .button_9, .button_10{
+.button_1, .button_2, .button_3, .button_4, .button_5{
   display: inline-block;
   font-weight: middle;
   padding: 0.25em 0.5em;
@@ -145,11 +145,12 @@
   transition: .4s;
 }
 
-.button_1, .button_2, .button_3{
+.button_1{
   background-color: #55a9b7;
+  margin-bottom: 15px;
 }
 
-.button_4{
+.button_2{
   background-color: #f2a38b;
 }
 
@@ -159,7 +160,7 @@
   position: relative;
 }
 
-.button_5, .button_6, .button_7, .button_8{
+.button_3{
   background-color: #ffde94;
   margin-bottom: 20px;
 }
@@ -170,7 +171,7 @@
   position: relative;
 }
 
-.button_9{
+.button_4{
   background-color: #a9f7f7;
 }
 
@@ -180,7 +181,7 @@
   position: relative;
 }
 
-.button_10{
+.button_5{
   background-color:#f2adad;
 }
 
